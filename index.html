@@ -92,7 +92,7 @@
 
 
 <section>
-  <div class="bg-gray-50 min-h-screen flex items-center justify-center px-16">
+  <div class="min-h-screen flex items-center justify-center px-16">
     <div class="relative w-full max-w-lg">
       <div class="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
       <div class="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
@@ -127,6 +127,147 @@
   </div>
 </section>
 
+
+<section>
+  <div class="grid place-items-center min-h-screen">
+    <!-- Responsive Grid Layout -->
+    <div class="p-4 max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6">
+      <h1 class="text-4xl font-extrabold xs:col-span-2 xs:grid xs:gap-4 xs:grid-cols-2 md:col-span-3 md:text-5xl md:grid-cols-3 lg:text-6xl">
+        <span class="md:col-span-2">Grid layout with Tailwind CSS.</span>
+      </h1>
+      <p class="xs:row-start-2 xs:col-start-2 xs:self-center md:col-start-1 md:col-span-2 md:pr-12 md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic itaque alias officiis.</p>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square md:col-start-2"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
+      <p class="self-center md:text-lg md:col-span-2 md:text-center md:px-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit, and some more.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="mx-16 mt-8 h-96 relative">
+    <div class="absolute w-full h-full py-8">
+      <img class="h-80 w-full object-cover rounded-2xl" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&h=1000&q=80" alt="" />
+    </div>
+    <div class="relative h-full flex overflow-x-auto space-x-80">
+      <div class="flex-shrink-0 rounded-2xl w-full"></div>
+      <div class="flex-shrink-0 rounded-2xl w-1/3 border-4 border-black backdrop-filter backdrop-hue-rotate-180"></div>
+      <div class="flex-shrink-0 rounded-2xl w-1/3 border-4 border-black backdrop-filter backdrop-saturate-200"></div>
+      <div class="flex-shrink-0 rounded-2xl w-1/3 border-4 border-black backdrop-filter backdrop-invert"></div>
+      <div class="flex-shrink-0 rounded-2xl w-1/3 border-4 border-black backdrop-filter backdrop-sepia"></div>
+      <div class="flex-shrink-0 rounded-2xl w-1/3 border-4 border-black backdrop-filter backdrop-blur-lg"></div>
+      <div class="flex-shrink-0 rounded-2xl w-full"></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section>
+  <div class="p-4 min-h-screen flex items-center justify-center">
+    <div>
+      <div class="flex space-x-8">
+        <img class="h-48 shadow-xl rounded-lg transition duration-300 filter grayscale hover:grayscale-0" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=1000&q=80" alt="" />
+        <img class="h-48 shadow-xl rounded-lg transition duration-300 filter sepia hover:sepia-0" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=1000&q=80" alt="" />
+        <img class="h-48 shadow-xl rounded-lg transition duration-300 filter invert hover:invert-0" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=1000&q=80" alt="" />
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+
+<section>
+  <div class="selection:bg-rose-500 selection:text-white">
+    <div class="min-h-screen bg-rose-100 flex justify-center items-center">
+      <div class="p-8 flex-1">
+        <div class="w-80 bg-white rounded-3xl mx-auto overflow-hidden shadow-xl">
+          <div class="relative h-48 bg-rose-500 rounded-bl-4xl">
+            <svg class="absolute bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path fill="#ffffff" fill-opacity="1" d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,85.3C672,75,768,85,864,122.7C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+          </div>
+          <div class="px-10 pt-4 pb-8 bg-white rounded-tr-4xl">
+            <h1 class="text-2xl font-semibold text-gray-900">Welcome back!</h1>
+            <form class="mt-12" action="" method="POST">
+              <div class="relative">
+                <input id="email" name="email" type="text" class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600" placeholder="john@doe.com" />
+                <label for="email" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Email address</label>
+              </div>
+              <div class="mt-10 relative">
+                <input id="password" type="password" name="password" class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600" placeholder="Password" />
+                <label for="password" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Password</label>
+              </div>
+  
+              <input type="sumbit" value="Sign in" class="mt-20 px-4 py-2 rounded bg-rose-500 hover:bg-rose-400 text-white font-semibold text-center block w-full focus:outline-none focus:ring focus:ring-offset-2 focus:ring-rose-500 focus:ring-opacity-80 cursor-pointer" />
+            </form>
+            <a href="#" class="mt-4 block text-sm text-center font-medium text-rose-600 hover:underline focus:outline-none focus:ring-2 focus:ring-rose-500"> Forgot your password? </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+    <img src="/img/beams.jpg" alt="" class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="1308" />
+    <div class="absolute inset-0 bg-[url(/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+    <div class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+      <div class="mx-auto max-w-md">
+        <img src="/img/logo.svg" class="h-6" alt="Tailwind Play" />
+        <div class="divide-y divide-gray-300/50">
+          <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
+            <p>An advanced online playground for Tailwind CSS, including support for things like:</p>
+            <ul class="space-y-4">
+              <li class="flex items-center">
+                <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="11" />
+                  <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                </svg>
+                <p class="ml-4">
+                  Customizing your
+                  <code class="text-sm font-bold text-gray-900">tailwind.config.js</code> file
+                </p>
+              </li>
+              <li class="flex items-center">
+                <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="11" />
+                  <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                </svg>
+                <p class="ml-4">
+                  Extracting classes with
+                  <code class="text-sm font-bold text-gray-900">@apply</code>
+                </p>
+              </li>
+              <li class="flex items-center">
+                <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="11" />
+                  <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                </svg>
+                <p class="ml-4">Code completion with instant preview</p>
+              </li>
+            </ul>
+            <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share online.</p>
+          </div>
+          <div class="pt-8 text-base font-semibold leading-7">
+            <p class="text-gray-900">Want to dig deeper into Tailwind?</p>
+            <p>
+              <a href="https://tailwindcss.com/docs" class="text-sky-500 hover:text-sky-600">Read the docs &rarr;</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
 
  
   
